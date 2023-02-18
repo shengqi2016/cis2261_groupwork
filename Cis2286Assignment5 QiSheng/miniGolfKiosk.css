@@ -1,0 +1,60 @@
+#container {
+    width: 800px;
+    margin: 0 auto;
+}
+form, input, select  {
+    font-size: 90%;
+}
+
+#leftArea fieldset {
+    width:200px;
+    background-color: #48ff48;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+legend {
+    background-color: #48ff48;
+}
+#totalArea {
+    float:left;
+    font-size: 90%;
+    width: 300px;
+}
+#totalArea input {
+    width:20px;
+    font-size: 90%;
+}
+#totalArea fieldset, #totalArea legend {
+    background-color: #e3ba1e;
+}
+
+#leftArea {
+    float:left;
+}
+#leftArea a {
+    text-decoration: none;
+    color: black;
+    cursor: help;
+}
+h5 {
+    font-size: 60%;
+    margin-top:-20px;
+}
+#totalAfterTaxDiv {
+    font-weight: bolder;
+}
+#changeButton {
+    font-size: 90%;
+}
+#changeOutput {
+    display:none;
+    padding: 10px;
+    background-color: #74ff9b;
+    border: 1px solid black;
+}
+#discountString {font-size: 90%;}
+
+
+#showLocalTime{
+    font-family: "Arial Black";
+}
